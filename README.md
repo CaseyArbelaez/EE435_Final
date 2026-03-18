@@ -12,7 +12,6 @@ The codebase includes more advanced preprocessing options (TV denoising, bilater
   - Mean shift
 - **`preprocessing/`**: Custom preprocessing modules (TV denoising, bilateral filtering, Lab conversion, spatial features, downsampling).
 - **`models/`**: Segmentation model wrappers (KMeans, Spectral, MeanShift, etc.).
-- **`images/`**: Example image(s) used by the scripts.
 
 ## Setup
 
@@ -44,8 +43,6 @@ Run the segmentation experiment:
 ```bash
 python main.py
 ```
-
-The default configuration uses `images/brain_tumor_glioma.jpg` and runs mean shift + comparison plots.
 
 You can edit `main.py` to change which pipeline is used (see `pipeline_name`) or swap images.
 
