@@ -55,5 +55,3 @@ You can edit `main.py` to change which pipeline is used (see `pipeline_name`) or
 - For faster results, use smaller images or downsample before clustering.
 
 ---
-
-If you want, I can also help you add a `requirements.txt` and/or a simple `setup.py`/`pyproject.toml` for packaging.

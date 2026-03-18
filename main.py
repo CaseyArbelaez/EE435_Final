@@ -565,7 +565,7 @@ def main() -> None:
     pipeline_name = "lab_comprehensive"  # Start with downscaled version for spectral clustering
     pipeline_data = pipelines[pipeline_name]
 
-    run_all_models_on_pipeline(pipeline_name, pipeline_data)
+    # run_all_models_on_pipeline(pipeline_name, pipeline_data)
 
     # Run all models on the selected pipeline and show results in 1x3 subplot
     run_all_models_comparison(
